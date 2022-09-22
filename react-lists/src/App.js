@@ -1,5 +1,6 @@
 import "./App.css";
-import ProjectList from "./components/ProjectList";
+import MovieList from "./components/MovieList";
+import ProjectList from "./components/ProjectList.js";
 import SimpleList from "./components/SimpleList";
 import StudentList from "./components/StudentList";
 
@@ -9,6 +10,7 @@ function App() {
       <SimpleList />
       <StudentList />
       <ProjectList />
+      <MovieList />
     </div>
   );
 }
